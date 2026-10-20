@@ -3,7 +3,7 @@
 Windows installers and cloud update packages for the shared Adobe After Effects
 and Premiere Pro AI Agent panel.
 
-Download **Setup.exe** from the [latest release](https://github.com/Vsdream/ai-agent-releases/releases/latest).
+Download **AI Agent Setup.exe** from the [latest release](https://github.com/Vsdream/ai-agent-releases/releases/latest).
 Close Adobe for initial installation, then open Window > Extensions > AI Agent and
 enter your API key. Cursor IDE and separate Node.js installation are not required.
 
