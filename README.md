@@ -7,6 +7,16 @@ Download **AI Agent Setup.exe** from the [latest release](https://github.com/Vsd
 Close Adobe for initial installation, then open Window > Extensions > AI Agent and
 enter your API key. Cursor IDE and separate Node.js installation are not required.
 
+**0.5.11:** Thinking effort is now a slider in the model menu directly below
+Add, matching Task Logs. It shows the current level, five positions and a help
+tip. The choice persists across menu openings and is independent of Task Logs.
+Update inside the panel from 0.5.2+, then Reload Panel in AE/Premiere.
+
+**0.5.11:** Thinking effort теперь переключается ползунком в меню модели,
+сразу под Add, в стиле Task Logs. Показаны текущий уровень, пять положений
+и подсказка. Выбор сохраняется и не меняет Task Logs. С 0.5.2+ обновляйтесь
+в панели, затем Reload Panel в AE/Premiere. Новый Setup для этого не нужен.
+
 **0.5.8:** speeds up routine edits beyond solids through compact AE instructions,
 batched execution and checked completion inside the final tool call. Cursor uses
 Low effort where supported; Settings offers other effort levels. Reply detail is
