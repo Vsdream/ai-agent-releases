@@ -7,6 +7,18 @@ Download **AI Agent Setup.exe** from the [latest release](https://github.com/Vsd
 Close Adobe for initial installation, then open Window > Extensions > AI Agent and
 enter your API key. Cursor IDE and separate Node.js installation are not required.
 
+**0.5.13:** Updated all provider model lists: GPT-6.1 Sol, Claude Sonnet 5.5 and
+Haiku 5.5, Gemini 4 Argon and 3.1 Flash-Lite, plus 47 Cursor SDK models. Effort
+under Add supports compatible OpenAI, Claude and Gemini models and exposes
+model-specific Cursor levels. Saved models and individual settings are preserved.
+Update inside the panel from 0.5.2+, then Reload Panel; a new Setup is not required.
+
+**0.5.13:** Обновлены модели всех провайдеров: GPT-6.1 Sol, Claude Sonnet 5.5 и
+Haiku 5.5, Gemini 4 Argon и 3.1 Flash-Lite, а также 47 моделей Cursor. Effort
+под Add доступен для совместимых моделей OpenAI, Claude и Gemini; уровни Cursor
+соответствуют SDK-каталогу. Сохранённый выбор остаётся. С 0.5.2+ обновляйтесь
+в панели, затем Reload Panel. Новый Setup не нужен.
+
 **0.5.11:** Thinking effort is now a slider in the model menu directly below
 Add, matching Task Logs. It shows the current level, five positions and a help
 tip. The choice persists across menu openings and is independent of Task Logs.
