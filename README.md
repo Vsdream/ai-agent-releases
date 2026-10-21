@@ -7,6 +7,22 @@ Download **AI Agent Setup.exe** from the [latest release](https://github.com/Vsd
 Close Adobe for initial installation, then open Window > Extensions > AI Agent and
 enter your API key. Cursor IDE and separate Node.js installation are not required.
 
+**0.5.8:** speeds up routine edits beyond solids through compact AE instructions,
+batched execution and checked completion inside the final tool call. Cursor uses
+Low effort where supported; Settings offers other effort levels. Reply detail is
+independent. Native tests cover selection edits, text, keys, shape/noise, folders,
+multi-step duplication and read-only inspection. Update in the panel from 0.5.2+;
+Reload Panel in AE/Premiere. A new Setup is provided for fresh installations.
+If AE has not been restarted since upgrading from pre-0.5.7, restart it once.
+
+**0.5.8:** ускорены обычные задачи, помимо солидов: компактные инструкции,
+пакетное выполнение и завершение прямо в последней команде после проверки значений.
+Cursor использует Low там, где модель его поддерживает; уровень меняется в Settings.
+Reply detail отдельно управляет длиной ответа. Проверены выделение, текст, ключи,
+шейп с шумом, папки, составная задача и чтение проекта. С 0.5.2+ обновляйтесь в
+панели, затем Reload Panel в AE/Premiere. Setup нужен для новой установки.
+Если после перехода с версии ниже 0.5.7 ещё не перезапускали AE, сделайте это один раз.
+
 **0.5.7:** adds a validated solid batch tool, prevents replay after lost execution
 responses, and shows readable Cursor errors. Three live Grok 4.7 / hidden AE 25.5
 runs completed the five-solids task in 19–27 seconds. Those local timings do not
