@@ -5,7 +5,20 @@ and Premiere Pro AI Agent panel.
 
 Download **AI Agent Setup.exe** from the [latest release](https://github.com/Vsdream/ai-agent-releases/releases/latest).
 Close Adobe for initial installation, then open Window > Extensions > AI Agent and
-enter your API key. Cursor IDE and separate Node.js installation are not required.
+connect a supported subscription or enter your API key. Cursor IDE and separate
+Node.js installation are not required.
+
+**0.5.14:** Added OpenAI / Codex Plan with ChatGPT sign-in and Claude Code Plan
+with the official Claude Code runtime running behind the panel. API connections
+remain separate; Gemini uses its existing API connection. Claude Code requires
+an eligible subscription and downloads its optional runtime from Anthropic.
+Update inside the panel from 0.5.2+, then Reload Panel; a new Setup is not required.
+
+**0.5.14:** Добавлены OpenAI / Codex Plan со входом через ChatGPT и Claude Code
+Plan с официальным Claude Code, работающим фоном. API-подключения сохранены;
+Gemini работает через API. Для Claude Code нужна подходящая подписка, его runtime
+скачивается отдельно с серверов Anthropic. С 0.5.2+ обновляйтесь в панели, затем
+Reload Panel. Новый Setup не нужен.
 
 **0.5.13:** Updated all provider model lists: GPT-6.1 Sol, Claude Sonnet 5.5 and
 Haiku 5.5, Gemini 4 Argon and 3.1 Flash-Lite, plus 47 Cursor SDK models. Effort
