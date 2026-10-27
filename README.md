@@ -8,6 +8,10 @@ Close Adobe for initial installation, then open Window > Extensions > AI Agent a
 connect a supported subscription or enter your API key. Cursor IDE and separate
 Node.js installation are not required.
 
+**0.5.19:** Optional Atarabi @script support expands After Effects scripting for AI agents. Model menu → Add now includes an explanation, installation check and a download button using the author's official GitHub. Atarabi is not bundled. Update AI Agent, then Reload Panel in AE/Premiere; separately installing Atarabi requires saving your project and fully restarting AE.
+
+**0.5.19:** Добавлена необязательная поддержка Atarabi @script для расширения скриптинга After Effects. В меню модели → Add появились пояснение, проверка установки и загрузка с официального GitHub автора. Сам Atarabi в пакет агента не входит. После обновления агента — Reload Panel в AE/Premiere; после отдельной установки Atarabi — сохранение проекта и полный перезапуск AE.
+
 **0.5.17:** Cursor checks the actual After Effects command path before starting the model. A stalled route stops early instead of wasting minutes before the same timeout. This improves detection; the cause of a recipient AE/CEP hang still requires checking. Update in-panel, then Reload Panel; for a stuck session, save and fully restart AE, then try a read-only inspection.
 
 **0.5.17:** До запуска модели Cursor проверяется реальный путь команд After Effects. При зависшем соединении задача останавливается раньше, без минут ожидания. Это ранняя диагностика, а не подтверждённое исправление причины зависания у получателя. Обновляйтесь в панели, затем Reload Panel; при зависшем сеансе сохраните проект, полностью перезапустите AE и начните с чтения проекта.
